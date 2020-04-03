@@ -1,0 +1,39 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,html {
+  background-color: black;
+    height: 100%;
+}
+@font-face {
+  font-family: 'vivaldi';
+  src: url('Fonts/VIVALDII.TTF') format('opentype');
+}
+.heading{
+  margin-top: 20px;
+    line-height: 1em;
+    text-align: left;
+    font-size: 90pt;
+    font-family: helvetica;
+    color: white;
+}
+
+.mdc-text-field__input{
+  height: 500px;
+  background-color: black;
+  width: 100%;
+  font-size: 80px;
+  color: white;
+  font-family: vivaldi;
+  line-height: 1em;
+  outline: none;
+}
+
+.mdc-text-field--textarea{
+  margin-top: 100px;
+  margin-left: 100px;
+}
